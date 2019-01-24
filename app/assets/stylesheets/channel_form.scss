@@ -1,0 +1,69 @@
+
+.base-form .channel-form {
+  text-align: left;
+  margin: 9vh auto;
+  min-width: 650px;
+  width: calc(85vw - 100px);
+}
+
+.base-form .channel-form img {
+  width: 30px;
+  filter: invert(63%);
+}
+
+.base-form .channel-form div {
+  float: right;
+  position: absolute;
+  top: 55px;
+  right: 55px;
+  text-align: center;
+  border-radius: 31px;
+  padding: 6px 16px;
+  font-size: 14px;
+  color: #9a9a9a;
+}
+
+.base-form .channel-form div:hover img {
+  filter: invert(25%);
+}
+
+.base-form .channel-form div:hover {
+  background-color: #e8e8e8;
+  color: #5b5a5f;
+}
+
+.base-form .channel-form div p {
+  margin-top: -5px;
+}
+
+
+.base-form .channel-form h1 {
+  color: #000000;
+  font-weight: 700;
+}
+
+.base-form .channel-form input {
+  width: calc(100% - 40px);
+  margin: 5px 0;
+}
+
+.base-form .channel-form button {
+  width: auto;
+  float: right;
+}
+
+.base-form .channel-form label {
+  display: block;
+  margin: 15px 0;
+}
+
+.base-form .channel-form span {
+  color: #b0b0b0;
+  font-weight: 300;
+}
+
+.base-form .channel-form .form-instruction {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+}
